@@ -40,7 +40,7 @@
         },
         methods: {
             search() {
-                let url = "http://127.0.0.1:47890/search";
+                let url = "http://192.168.218.47:47890/search";
                 this.search_loading = true;
                 this.$axios.request({
                     method: "GET",
