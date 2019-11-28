@@ -1,0 +1,30 @@
+{
+  "name": "Elasticsearch Demo",
+  "version": "1.0.0",
+  "description": "My praiseworthy Nuxt.js project",
+  "author": "terence941",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@antv/g2": "^3.5.8",
+    "@elastic/elasticsearch": "^7.4.0",
+    "@nuxtjs/axios": "^5.3.6",
+    "axios": "^0.19.0",
+    "countup.js": "^2.0.4",
+    "cross-env": "^5.2.0",
+    "elasticsearch": "^16.5.0",
+    "express": "^4.16.4",
+    "iview": "^3.1.5",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "nodemon": "^1.18.9"
+  }
+}
